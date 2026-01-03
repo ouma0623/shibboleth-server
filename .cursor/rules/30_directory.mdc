@@ -1,0 +1,51 @@
+# 30_directory.mdc
+# Directory & SSOT Rules
+
+## 1. 目的
+情報の散逸・二重管理を防ぎ、
+「どこを見れば何が分かるか」を固定する。
+
+---
+
+## 2. Single Source of Truth（SSOT）
+- 仕様の正：docs/
+- 実行状態の正：GitHub Issue
+- 最終成果・再現装置：Obsidian（自動コピー）
+- Obsidianプロジェクトディレクトリ：docs/90_OBSIDIAN/PJ<XXX>-<YYYY-MM>/
+- リンクハブ：docs/00_INDEX.md
+
+---
+
+## 3. docs 配置規約（SSOT）
+
+docs 配下の「ファイル一覧・役割・読む順番・必須/任意」は **docs/00_INDEX.md が唯一の正** とする。
+
+- **docs配下の情報を知りたい場合は、まず docs/00_INDEX.md を確認すること**
+- rules/commands は docs 構成を直書きしない（プロジェクト差分を吸収するため）
+- docs を追加/変更した場合は docs/00_INDEX.md を必ず更新する
+- 目的が重複する docs の乱立は禁止
+
+
+## 4. 追加・変更ルール
+- 新規 docs 追加は Plan で役割を定義する
+- docs/00_INDEX.md に必ず追記する
+- 目的が重複する docs の乱立は禁止
+
+---
+
+## 5. 粒度基準
+- 「あとから読んで再現できる」粒度で書く
+- 未来の自分・他人が理解できないものは未完成
+
+---
+
+## 6. scripts 配置規約（運用/テスト）
+- 運用目的のバッチ/スクリプトを新規作成した場合：
+  - 格納先：`scripts/operation/`
+  - 併せて必須：`docs/03_OPERATIONS/runbook.md` を更新（実行手順・前提・ロールバック）
+
+- テスト実行用スクリプトを新規作成した場合（Doフェーズで作る想定）：
+  - 格納先：`scripts/test/`
+  - 併せて必須：`docs/03_OPERATIONS/runbook_test.md` を更新（実行方法・期待結果・注意点）
+
+※ これらが存在するのに runbook が更新されていない状態は「未完了」とみなす。
