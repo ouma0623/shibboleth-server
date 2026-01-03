@@ -23,7 +23,7 @@
 - 関連リンク：
   - docs hub：docs/00_INDEX.md
   - requirements：docs/01_REQUIREMENTS/requirements.md
-  - Plan Issue：#8
+  - Plan Issue：#1
   - Obsidian：`/mnt/d/work/obsidian/cursor/10_PROJECTS/PJ001-2026-01/`
 
 ### 0.1 AWSリソース情報（2026-01-03作成）
@@ -438,8 +438,8 @@ ssh -i ~/.ssh/shibboleth-idp-key.pem ec2-user@57.180.61.148 "whoami"
 
 - 変更履歴：docs/01_REQUIREMENTS/changes.md
 - 関連 Issue：
-  - Plan：#8
-  - Task：#9（VPCとセキュリティグループの作成）
+  - Plan：#1
+  - Task：#2（VPCとセキュリティグループの作成）
 - 関連 PR：なし
 
 ---

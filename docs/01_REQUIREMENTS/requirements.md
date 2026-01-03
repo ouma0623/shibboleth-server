@@ -13,7 +13,7 @@
 - 最終更新日：2026-01-03
 - 関連（リンク）
   - docs hub：`docs/00_INDEX.md`
-  - Plan Issue：#8 - https://github.com/ouma0623/template/issues/8
+  - Plan Issue：#1 - https://github.com/ouma0623/shibboleth-server/issues/1
   - Obsidian：`/mnt/d/work/obsidian/cursor/10_PROJECTS/PJ001-2026-01/`
   - Github Repository：https://github.com/ouma0623/template
 
