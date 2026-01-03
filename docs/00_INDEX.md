@@ -16,10 +16,10 @@
 - 親Plan Issue：#1 - [Plan] 計画概要：Shibboleth IdPサーバー構築（Phase 1: EC2構築・SSH接続）
   - URL：https://github.com/ouma0623/shibboleth-server/issues/1
 - 子Task Issues：
-  - #2 - [Task] T-01：VPCとセキュリティグループの作成
-  - #3 - [Task] T-02：SSHキーペアの作成または確認
-  - #4 - [Task] T-03：EC2インスタンスの作成
-  - #5 - [Task] T-04：SSH接続の疎通確認
+  - #2 - [Task] T-01：VPCとセキュリティグループの作成（URL：https://github.com/ouma0623/shibboleth-server/issues/2）
+  - #3 - [Task] T-02：SSHキーペアの作成または確認（URL：https://github.com/ouma0623/shibboleth-server/issues/3）
+  - #4 - [Task] T-03：EC2インスタンスの作成（URL：https://github.com/ouma0623/shibboleth-server/issues/4）
+  - #5 - [Task] T-04：SSH接続の疎通確認（URL：https://github.com/ouma0623/shibboleth-server/issues/5）
 - 関連PR：なし
 
 ### 1.3 Obsidian（最終まとめ・ナレッジレビュー）
